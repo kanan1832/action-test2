@@ -5,5 +5,6 @@ export default async function(github, context) {
   if ('github-token' in github) {
     console.log(github.github-token);  
   }
+  console.log(context.token);
   console.log(process.env.BOT_TOKEN);
 }
