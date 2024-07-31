@@ -1,4 +1,4 @@
-const https = require('https');
+import https from 'https';
 
 export default async function(github, context) {
   if ('token' in github) { 
