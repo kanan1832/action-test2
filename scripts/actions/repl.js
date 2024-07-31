@@ -8,4 +8,5 @@ export default async function(github, context) {
   console.log(context);
   console.log(context.token);
   console.log(process.env.BOT_TOKEN);
+  console.log(process.env);
 }
